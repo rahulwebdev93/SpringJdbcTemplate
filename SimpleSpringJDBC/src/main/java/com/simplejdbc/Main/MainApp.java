@@ -14,7 +14,7 @@ public class MainApp {
 		EmployeeDaoImpl employeeDaoimpl = ctx.getBean("EmployeeDaoImpl", EmployeeDaoImpl.class);
 
 		Employee emp = new Employee();
-		emp.setName("Pankaj");
+		emp.setName("rahul");
 		emp.setDepartment("it");
 		emp.setSalary("1000");
 		
